@@ -1,3 +1,5 @@
+# emulator.py
+
 import tkinter as tk
 import time
 import threading
@@ -115,4 +117,3 @@ class MatrixDisplayEmulator:
 
     def mainloop(self):
         self.root.mainloop()
-

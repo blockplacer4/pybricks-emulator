@@ -9,9 +9,11 @@ hub = PrimeHub()
 def write_display(funktionen, index):
     pixels = [[0]*5 for _ in range(5)]
     for count, _ in enumerate(funktionen, 1):
+        if count > 25:
+            break  # Begrenzung auf 25 Pixel (5x5)
         x, y = divmod(count - 1, 5)
-        light = 100 if count == index else 75
-        pixels[y][x] = light
+        # Um sicherzustellen, dass y von 0 bis 4 geht und x von 0 bis 4
+        pixels[y][x] = 100 if count == index else 75
     hub.display.emulator.set_pixels(pixels)
 
 funktionen = [str(i) for i in range(1, 11)]  # Funktionen von 1 bis 10

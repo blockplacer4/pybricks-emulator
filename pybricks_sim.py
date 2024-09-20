@@ -24,8 +24,11 @@ class Display:
 
     def pixel(self, x, y, brightness):
         # Aktualisieren Sie ein einzelnes Pixel auf dem Display
-        self.current_pixels[y][x] = brightness
-        self.emulator.set_pixels(self.current_pixels)
+        if 0 <= x < 5 and 0 <= y < 5:
+            self.current_pixels[y][x] = brightness
+            self.emulator.set_pixels(self.current_pixels)
+        else:
+            print(f"Ungültige Pixelkoordinaten: x={x}, y={y}")
 
     def clear(self):
         self.current_pixels = [[0]*5 for _ in range(5)]

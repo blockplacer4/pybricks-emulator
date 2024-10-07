@@ -2,9 +2,9 @@
 
 ## Einleitung
 
-Willkommen zum **SPIKE Prime Emulator mit Pybricks**! Dieses Projekt ermöglicht es Ihnen, Programme für den LEGO SPIKE Prime Hub zu entwickeln und zu testen, ohne die physische Hardware zu benötigen. Der Emulator simuliert das 5x5-Matrixdisplay und die Tasten des Hubs unter Verwendung von Pybricks und Tkinter.
+Willkommen zum **SPIKE Prime Emulator mit Pybricks**! Dieses Projekt ermöglicht es dir, Programme für den LEGO SPIKE Prime Hub zu entwickeln und zu testen, ohne die physische Hardware zu benötigen. Der Emulator simuliert das 5x5-Matrixdisplay und die Tasten des Hubs unter Verwendung von Pybricks und Tkinter.
 
-Dieses Projekt ist ideal für Entwickler, Pädagogen und Enthusiasten, die Programme schreiben und testen möchten, ohne direkten Zugriff auf einen SPIKE Prime Hub zu haben.
+Dieses Projekt ist ideal für Entwickler, Pädagogen und Enthusiasten wie dich, die Programme schreiben und testen möchten, ohne direkten Zugriff auf einen SPIKE Prime Hub zu haben.
 
 ## Inhaltsverzeichnis
 
@@ -21,7 +21,6 @@ Dieses Projekt ist ideal für Entwickler, Pädagogen und Enthusiasten, die Progr
 7. [Projektstruktur](#projektstruktur)
 8. [Erweiterung des Projekts](#erweiterung-des-projekts)
 9. [Fehlerbehebung](#fehlerbehebung)
-10. [Lizenz](#lizenz)
 
 ## Features
 
@@ -32,13 +31,13 @@ Dieses Projekt ist ideal für Entwickler, Pädagogen und Enthusiasten, die Progr
 
 ## Voraussetzungen
 
-- **Python 3.x**: Stellen Sie sicher, dass Python 3 installiert ist. Überprüfen Sie Ihre Version mit:
+- **Python 3.x**: Stelle sicher, dass Python 3 installiert ist. Überprüfe deine Version mit:
 
   ```bash
   python --version
   ```
 
-- **Tkinter**: Wird für die GUI benötigt. Tkinter ist normalerweise standardmäßig installiert. Um zu überprüfen, ob Tkinter installiert ist, führen Sie folgendes Skript aus:
+- **Tkinter**: Wird für die GUI benötigt. Tkinter ist normalerweise standardmäßig installiert. Um zu überprüfen, ob Tkinter installiert ist, führe folgendes Skript aus:
 
   ```python
   import tkinter
@@ -48,7 +47,7 @@ Dieses Projekt ist ideal für Entwickler, Pädagogen und Enthusiasten, die Progr
   Falls Tkinter nicht installiert ist:
 
   - **Windows**: Tkinter ist in der Regel enthalten.
-  - **macOS**: Installieren Sie es über Homebrew:
+  - **macOS**: Installiere es über Homebrew:
 
     ```bash
     brew install python-tk
@@ -64,7 +63,7 @@ Dieses Projekt ist ideal für Entwickler, Pädagogen und Enthusiasten, die Progr
 
 1. **Repository klonen oder herunterladen**
 
-   Klonen Sie das Repository oder laden Sie das ZIP herunter und entpacken Sie es:
+   Klone das Repository oder lade das ZIP herunter und entpacke es:
 
    ```bash
    git clone https://github.com/blockplacer4/pybricks-emulator.git
@@ -79,7 +78,7 @@ Dieses Projekt ist ideal für Entwickler, Pädagogen und Enthusiasten, die Progr
 
 ### Starten des Emulators
 
-Führen Sie das Beispielprogramm `main.py` aus, um den Emulator zu starten:
+Führe das Beispielprogramm `main.py` aus, um den Emulator zu starten:
 
 ```bash
 python main.py
@@ -99,8 +98,8 @@ python main.py
 
 - **Menünavigation**:
 
-  - Verwenden Sie die **linke** und **rechte** Taste, um durch die Menüoptionen zu navigieren.
-  - Drücken Sie die **mittlere** Taste, um eine Option auszuwählen.
+  - Verwende die **linke** und **rechte** Taste, um durch die Menüoptionen zu navigieren.
+  - Drücke die **mittlere** Taste, um eine Option auszuwählen.
 
 ## Beispielprogramm
 
@@ -133,7 +132,7 @@ Das `main.py`-Skript enthält ein interaktives Menüsystem, das die Funktionen d
 
 - **Neue Funktionen hinzufügen**:
 
-  Fügen Sie eigene Funktionen zur Liste `funktionen` hinzu:
+  Füge eigene Funktionen zur Liste `funktionen` hinzu:
 
   ```python
   def meine_funktion():
@@ -144,7 +143,7 @@ Das `main.py`-Skript enthält ein interaktives Menüsystem, das die Funktionen d
 
 - **Debug-Programme erweitern**:
 
-  Sie können weitere Debug-Elemente zur Liste `debugs` hinzufügen, um zusätzliche Motoren oder Aktionen zu testen.
+  Du kannst weitere Debug-Elemente zur Liste `debugs` hinzufügen, um zusätzliche Motoren oder Aktionen zu testen.
 
 ## Projektstruktur
 
@@ -156,37 +155,33 @@ Das `main.py`-Skript enthält ein interaktives Menüsystem, das die Funktionen d
 
 - **Erweiterte Sensor-Simulation**:
 
-  - Implementieren Sie zusätzliche Sensoren wie Farbsensoren oder Gyroskope.
+  - Implementiere zusätzliche Sensoren wie Farbsensoren oder Gyroskope.
 
 - **Erweiterte Motorsteuerung**:
 
-  - Fügen Sie Funktionen für präzisere Motorsteuerung hinzu, z. B. Gradgenauigkeit oder Geschwindigkeitsprofile.
+  - Füge Funktionen für präzisere Motorsteuerung hinzu, z. B. Gradgenauigkeit oder Geschwindigkeitsprofile.
 
 - **GUI-Verbesserungen**:
 
-  - Fügen Sie dem Emulator weitere GUI-Elemente hinzu, um z. B. Sensorwerte anzuzeigen oder Einstellungen zu ändern.
+  - Füge dem Emulator weitere GUI-Elemente hinzu, um z. B. Sensorwerte anzuzeigen oder Einstellungen zu ändern.
 
 - **Kompatibilität mit echten Pybricks-Programmen**:
 
-  - Passen Sie die Simulation so an, dass sie bestehende Pybricks-Programme ohne Modifikationen ausführen kann.
+  - Passe die Simulation so an, dass sie bestehende Pybricks-Programme ohne Modifikationen ausführen kann.
 
 ## Fehlerbehebung
 
 - **Tkinter nicht gefunden**:
 
-  - Stellen Sie sicher, dass Tkinter installiert ist (siehe [Voraussetzungen](#voraussetzungen)).
+  - Stelle sicher, dass Tkinter installiert ist (siehe [Voraussetzungen](#voraussetzungen)).
 
 - **Emulatorfenster öffnet sich nicht**:
 
-  - Überprüfen Sie, ob das Skript Fehler ausgibt, und stellen Sie sicher, dass alle Dateien korrekt vorhanden sind.
+  - Überprüfe, ob das Skript Fehler ausgibt, und stelle sicher, dass alle Dateien korrekt vorhanden sind.
 
 - **Tasten reagieren nicht**:
 
-  - Stellen Sie sicher, dass das Emulatorfenster den Fokus hat, wenn Sie die Tastatur verwenden.
-
-## Lizenz
-
-Das Projekt kann für alles genutzt werden. Macht damit, was ihr wollt, das ist nur ein Spaß Projekt ^^.
+  - Stelle sicher, dass das Emulatorfenster den Fokus hat, wenn du die Tastatur verwendest.
 
 ---
 

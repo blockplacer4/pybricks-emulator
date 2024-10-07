@@ -115,18 +115,9 @@ Das `main.py`-Skript enthält ein interaktives Menüsystem, das die Funktionen d
 
   - Enthalten in der Liste `debugs`, ermöglichen sie das Testen von Motoren in verschiedenen Richtungen.
 
-- **Motoren**:
+- **Hinweis**:
 
-  - Simuliert durch die Klasse `Motor`, mit Methoden:
-
-    - `run(speed)`: Startet den Motor mit der angegebenen Geschwindigkeit.
-    - `stop()`: Stoppt den Motor.
-
-- **Kraftsensor**:
-
-  - Simuliert durch die Klasse `ForceSensor`, mit der Methode:
-
-    - `pressed()`: Gibt an, ob der Sensor gedrückt ist (in der Simulation immer `False`).
+  - Das ist lediglich ein Beispielprogramm, welches basierend auf einem originalen Programm geschrieben wurde. `https://github.com/blockplacer4/pybricks-better-then-prime`
 
 ### Anpassen des Programms
 
